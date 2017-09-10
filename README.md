@@ -35,7 +35,7 @@ To install the project follow these steps…
 ## Contributing
 
 Contributions are welcome from everyone. We have [contributing 
-guidelines](https://github.com/wythenshaw-community-farm/wp-core/blob/master/CONTRIBUTING.md) to help you  get started.
+guidelines](https://github.com/wythenshawe-community-farm/guidelines/blob/master/CONTRIBUTING.md) to help you  get started.
 
 
 ## Community
