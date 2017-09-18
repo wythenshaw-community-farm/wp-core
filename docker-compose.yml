@@ -15,7 +15,7 @@ services:
       - ./docker/app/conf/sites-available:/etc/apache2/sites-available
       - .:/var/www/html:cached
     ports:
-      - 80:80
+      - 8000:80
     environment:
       PHP_IDE_CONFIG: serverName=wcf.dev
     depends_on:
