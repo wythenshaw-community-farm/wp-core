@@ -8,8 +8,19 @@ function register_animals_post_type() {
 	register_post_type(
 		POST_TYPE_ANIMALS,
 		[
-			'public' => true,
-			'label'  => 'Our Animals',
+			'label'         => 'Our Animals',
+			'description'   => 'Pages about our animals',
+			'public'        => true,
+			'menu_position' => 5,
+			'supports'      => [
+				'title',
+				'editor',
+				'comments',
+				'revisions',
+				'author',
+				'page-attributes',
+				'thumbnail',
+			],
 		]
 	);
 }
