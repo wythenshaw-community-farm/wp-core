@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  mysql:
+    image: mysql:5.7
+    env_file:
+      - ./docker/mysql/.env
+    volumes:
+      - mysql-data:/var/lib/mysql:delegated
+
+  app:
+    build:  ./docker/app
+    volumes:
+      - ./docker/app/conf/sites-available:/etc/apache2/sites-available
+      - .:/var/www/html:cached
+    ports:
+      - 80:80
+    depends_on:
+      - mysql
+
+volumes:
+  mysql-data: ~
