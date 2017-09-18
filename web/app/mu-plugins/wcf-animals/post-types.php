@@ -21,6 +21,7 @@ function register_animals_post_type() {
 				'page-attributes',
 				'thumbnail',
 			],
+			'has_archive'   => 'our-animals',
 		]
 	);
 }
