@@ -8,7 +8,12 @@ function register_animals_post_type() {
 	register_post_type(
 		POST_TYPE_ANIMALS,
 		[
-			'label'         => 'Our Animals',
+			'labels'        => [
+				'name'          => 'Our Animals',
+				'singular_name' => 'Animal',
+				'add_new'       => 'New Animal',
+				'add_new_item'  => 'New Animal',
+			],
 			'description'   => 'Pages about our animals',
 			'public'        => true,
 			'menu_position' => 5,
