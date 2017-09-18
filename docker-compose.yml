@@ -7,7 +7,7 @@ services:
     env_file:
       - ./docker/mysql/.env
     volumes:
-      - mysql-data:/var/lib/mysql:delegated
+      - mysql_data:/var/lib/mysql:delegated
 
   app:
     build:  ./docker/app
@@ -22,4 +22,4 @@ services:
       - mysql
 
 volumes:
-  mysql-data: ~
+  mysql_data: ~

@@ -14,9 +14,9 @@ web/wp
 web/.htaccess
 
 # Dotenv
-.env
-.env.*
-!.env.dist
+/.env
+/.env.*
+/!.env.dist
 
 # Composer
 vendor/*
