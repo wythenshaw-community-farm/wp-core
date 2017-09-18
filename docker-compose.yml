@@ -16,6 +16,8 @@ services:
       - .:/var/www/html:cached
     ports:
       - 80:80
+    environment:
+      PHP_IDE_CONFIG: serverName=wcf.dev
     depends_on:
       - mysql
 
