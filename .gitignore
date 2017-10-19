@@ -2,10 +2,11 @@
 /.idea/
 
 # Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 !web/app/mu-plugins/wcf-animals
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/themes/*
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
