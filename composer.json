@@ -1,7 +1,7 @@
 {
   "name": "wythenshaw-community-farm/wp-core",
   "type": "project",
-  "license": "MIT",
+  "license": "GPL-3.0+",
   "description": "Core Wordpress website for Wythenshawe Community Farm",
   "homepage": "https://wythenshawcommunityfarm.org.uk",
   "authors": [
@@ -24,17 +24,22 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "../wp-theme-wcf-2017"
     }
   ],
   "require": {
     "php": ">=7.1",
     "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.8.2",
+    "johnpbloch/wordpress": "^4.8",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/wordpress-seo": "^5.4",
-    "wpackagist-plugin/the-events-calendar": "4.5.12.2"
+    "wpackagist-plugin/the-events-calendar": "4.5.12.2",
+    "wythenshawe-community-farm/wp-theme-wcf-2017": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

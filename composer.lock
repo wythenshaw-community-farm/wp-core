@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2edda8e9145528d35a6d41da3c8ffe3",
+    "content-hash": "9b52c1f373d2b694ff55be58159e3a90",
     "packages": [
         {
             "name": "composer/installers",
@@ -429,6 +429,27 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wythenshawe-community-farm/wp-theme-wcf-2017",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "../wp-theme-wcf-2017",
+                "reference": "b102ff6caa5cb1bc5fcb5fd81bcf76e2701f6fdc"
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "^4.8"
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Toby Griffiths",
+                    "email": "toby@cubicmushroom.co.uk"
+                }
+            ],
+            "description": "Wythenshawe Community Farm 2017 WordPress theme",
+            "time": "2017-10-19 15:48:45"
         }
     ],
     "packages-dev": [
@@ -513,7 +534,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wythenshawe-community-farm/wp-theme-wcf-2017": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
