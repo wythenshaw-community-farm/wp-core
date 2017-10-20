@@ -18,8 +18,14 @@
     "issues": "https://github.com/wythenshaw-community-farm/wp-core/issues"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": {
+      "wythenshawe-community-farm/wp-theme-wcf-2017": "source",
+      "wythenshawe-community-farm/wp-plugin-our-animals": "source",
+      "*": "dist"
+    }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "composer",
@@ -27,7 +33,11 @@
     },
     {
       "type": "vcs",
-      "url": "../wp-theme-wcf-2017"
+      "url": "git@github.com:wythenshawe-community-farm/wp-theme-wcf-2017.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wythenshawe-community-farm/wp-plugin-our-animals.git"
     }
   ],
   "require": {
@@ -48,7 +58,8 @@
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": [
         "type:wordpress-muplugin",
-        "wpackagist-plugin/wordpress-seo"
+        "wpackagist-plugin/wordpress-seo",
+        "wythenshawe-community-farm/wp-plugin-our-animals"
       ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
