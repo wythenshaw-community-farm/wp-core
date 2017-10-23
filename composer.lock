@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f42e78d645d05bdbc63143474feba30d",
+    "content-hash": "494676ae2952b61cf7e20bd673e23040",
     "packages": [
         {
             "name": "composer/installers",
@@ -341,6 +341,59 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
+            "name": "twbs/bootstrap-sass",
+            "version": "v3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap-sass.git",
+                "reference": "5d6b2ebba0c2a5885ce2f0e01e9218db3d3b5e47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap-sass/zipball/5d6b2ebba0c2a5885ce2f0e01e9218db3d3b5e47",
+                "reference": "5d6b2ebba0c2a5885ce2f0e01e9218db3d3b5e47",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto"
+                },
+                {
+                    "name": "Thomas McDonald"
+                },
+                {
+                    "name": "Tristan Harward"
+                },
+                {
+                    "name": "Peter Gumeson"
+                },
+                {
+                    "name": "Gleb Mazovetskiy"
+                },
+                {
+                    "name": "Jacob Thornton"
+                }
+            ],
+            "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
+            "homepage": "http://github.com/twbs/bootstrap-sass",
+            "keywords": [
+                "bootstrap",
+                "css",
+                "sass"
+            ],
+            "time": "2016-07-25T19:58:53+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -392,16 +445,16 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.5.12.2",
+            "version": "4.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.5.12.2"
+                "reference": "tags/4.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.5.12.2.zip",
-                "reference": "tags/4.5.12.2",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.6.2.zip",
+                "reference": "tags/4.6.2",
                 "shasum": null
             },
             "require": {
@@ -436,12 +489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals.git",
-                "reference": "5b93d9a23203ba5983e1024df577f89b60859d75"
+                "reference": "380cef8c9dbf78affe1fd51bdf905216509a3cea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wythenshawe-community-farm/wp-plugin-our-animals/zipball/5b93d9a23203ba5983e1024df577f89b60859d75",
-                "reference": "5b93d9a23203ba5983e1024df577f89b60859d75",
+                "url": "https://api.github.com/repos/wythenshawe-community-farm/wp-plugin-our-animals/zipball/380cef8c9dbf78affe1fd51bdf905216509a3cea",
+                "reference": "380cef8c9dbf78affe1fd51bdf905216509a3cea",
                 "shasum": ""
             },
             "require": {
@@ -462,7 +515,7 @@
                 "source": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals/tree/master",
                 "issues": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals/issues"
             },
-            "time": "2017-10-20 09:02:48"
+            "time": "2017-10-20 13:13:18"
         },
         {
             "name": "wythenshawe-community-farm/wp-theme-wcf-2017",
@@ -470,16 +523,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017.git",
-                "reference": "72fb2cd63519e587b3220cbb61c17f4f31e29a93"
+                "reference": "8464116b0774b71b571dcf217e7aace793e54c73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wythenshawe-community-farm/wp-theme-wcf-2017/zipball/72fb2cd63519e587b3220cbb61c17f4f31e29a93",
-                "reference": "72fb2cd63519e587b3220cbb61c17f4f31e29a93",
+                "url": "https://api.github.com/repos/wythenshawe-community-farm/wp-theme-wcf-2017/zipball/8464116b0774b71b571dcf217e7aace793e54c73",
+                "reference": "8464116b0774b71b571dcf217e7aace793e54c73",
                 "shasum": ""
             },
             "require": {
                 "johnpbloch/wordpress-core": "^4.8",
+                "twbs/bootstrap-sass": "^3.3",
                 "wythenshawe-community-farm/wp-plugin-our-animals": "dev-master"
             },
             "type": "wordpress-theme",
@@ -497,7 +551,7 @@
                 "source": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017/tree/master",
                 "issues": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017/issues"
             },
-            "time": "2017-10-20 08:38:34"
+            "time": "2017-10-20 09:32:50"
         }
     ],
     "packages-dev": [

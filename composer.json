@@ -48,7 +48,7 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/wordpress-seo": "^5.4",
-    "wpackagist-plugin/the-events-calendar": "4.5.12.2",
+    "wpackagist-plugin/the-events-calendar": "^4.6",
     "wythenshawe-community-farm/wp-theme-wcf-2017": "dev-master"
   },
   "require-dev": {
